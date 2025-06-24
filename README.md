@@ -1,20 +1,14 @@
-# SkyFall Escape
-
 ## Project Overview
 
 **SkyFall Escape** is a 2D platformer game where you control the main character to jump and dodge obstacles falling from the sky. The game features increasing difficulty over time, high score saving, and a local leaderboard. Developed with Unity and C#, SkyFall Escape supports builds for both PC and Android platforms. This project is intended for educational purposes and as a graduation thesis.
-
-## Screenshots
-
-_(Add gameplay screenshots or GIFs here)_
 
 ---
 
 ## Installation & Running the Game
 
 1. **Clone the repository:**
-   ```bash
-   git clone <repo-url>
+   ```
+   git clone https://github.com/Maz2605/2D_Murshrio.git
    ```
 2. **Open the project with Unity 2022.3**
 3. **Select your build platform** (PC or Android) in Unity Build Settings
