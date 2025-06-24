@@ -14,10 +14,6 @@ public class PlayerRespawn : MonoBehaviour
         PlayerPrefs.SetFloat("saveX",transform.position.x);
         PlayerPrefs.SetFloat("saveY",transform.position.y);
         
-        PlayerPrefs.SetFloat("maxCamX",0f);
-        PlayerPrefs.SetFloat("maxCamY",0f);
-        PlayerPrefs.SetFloat("minCamX",0f);
-        PlayerPrefs.SetFloat("minCamY",0f);
         _camFollow = Camera.main.GetComponent<CameraFollowPlayer>();
 
     }
@@ -34,8 +30,8 @@ public class PlayerRespawn : MonoBehaviour
     public void ReturnCheckPoint()
     {
         transform.position = new Vector2(PlayerPrefs.GetFloat("saveX"),PlayerPrefs.GetFloat("saveY"));
-        Vector3 min = SaveAndLoadVector3.LoadVector3("MinCam", Vector3.zero);
-        Vector3 max = SaveAndLoadVector3.LoadVector3("MaxCam", Vector3.zero);
+        Vector3 min = SaveAndLoadVector3.LoadVector3("MinCam",new Vector3(0, 0, -10));
+        Vector3 max = SaveAndLoadVector3.LoadVector3("MaxCam", new Vector3(0, 0, -10));
         _camFollow.minLimits = min;
         _camFollow.maxLimits = max;
     }

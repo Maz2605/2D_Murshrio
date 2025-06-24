@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Player
   m_EditorClassIdentifier: 
   id: 0
-  name: "N\u1EA5m \u0111\u1ECF"
-  avatar: {fileID: 21300000, guid: d1041c38e42f64b44a273038f4084dda, type: 3}
+  name: "N\u1EA5m con"
+  avatar: {fileID: 21300000, guid: 53f0ebcb5dbf4c142b167410ca19dc49, type: 3}

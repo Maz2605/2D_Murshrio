@@ -24,6 +24,7 @@ public class JumpDamage : MonoBehaviour
             LosseLifeAndHit();
             AudioManager.Instance.PlaySFX(AudioManager.Instance.hitEnemy);
             CheckLife();
+            Debug.Log("XX");
         }
     }
 

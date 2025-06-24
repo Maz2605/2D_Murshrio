@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b26dee45f199a4eacbd3f377a56d19, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  player: {fileID: 11400000, guid: f2e77fce824cda84bbdb2a778330df31, type: 2}
+  npc: {fileID: 11400000, guid: f476b085f6a75474cada7dbfca79f6ea, type: 2}
+  states:
+  - stateID: 1
+    nextStateID: 2
+    linesInState:
+    - isPlayer: 1
+      lines:
+      - "\u201C\u2026\u0110\xE2y l\xE0 \u0111\xE2u\u2026?\u201D"
+      - "\u201C\u2026\u0110\u1EA7u m\xECnh\u2026 \u0111au qu\xE1\u2026 chuy\u1EC7n
+        g\xEC \u0111\xE3\u2026 x\u1EA3y ra?\u201D"
+      - "\u201CM\u1EB9\u2026 Cha\u2026 M\u1ECDi ng\u01B0\u1EDDi \u0111\xE2u r\u1ED3i\u2026?\u201D"
+      - "\u201CM\xECnh\u2026 m\xECnh nh\u1EDB l\xE0 \u0111ang \u1EDF nh\xE0\u2026
+        r\u1ED3i\u2026 c\u01A1n b\xE3o\u2026 M\u1ECDi th\u1EE9 b\u1ECB cu\u1ED1n
+        \u0111i\u2026\u201D"
+      - "\u201CKh\xF4ng\u2026 kh\xF4ng th\u1EC3 n\xE0o\u2026 m\xECnh kh\xF4ng th\u1EC3
+        l\xE0 ng\u01B0\u1EDDi duy nh\u1EA5t c\xF2n l\u1EA1i\u2026\u201D"
+      - "\u201CM\xECnh ph\u1EA3i t\xECm h\u1ECD. B\u1EB1ng m\u1ECDi gi\xE1.\u201D"
+  initialStateID: 1

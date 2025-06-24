@@ -17,11 +17,11 @@ public class AI_Enemy : MonoBehaviour,IsEnemy
     {
         get
         {
-            return anim.GetBool("CanRun");
+            return (bool)(anim?.GetBool("CanRun"));
         }
         set
         {
-            anim.SetBool("CanRun",value);
+            anim?.SetBool("CanRun", value);
         }
     }
     public void SetFlip(bool Flip)
@@ -86,7 +86,7 @@ public class AI_Enemy : MonoBehaviour,IsEnemy
         return false;
     }
 
-    public void Flip()
+    public virtual void Flip()
     {
         if (flip)
         {
@@ -95,7 +95,8 @@ public class AI_Enemy : MonoBehaviour,IsEnemy
             speed = -speed;
             flip = false;
         }
-    }private void CheckGroundAndFlip()
+    }
+    protected virtual void CheckGroundAndFlip()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 2f, LayerMask.GetMask("Ground"));
         Debug.DrawRay(transform.position, Vector2.down * 2f, Color.green);

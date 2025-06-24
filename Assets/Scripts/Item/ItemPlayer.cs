@@ -30,6 +30,7 @@ public class ItemPlayer : Item
                 timeUnable -= 1;
                 timeCheck = 0f;
                 this.PostEvent(EventID.OnChangePlayer,timeUnable);
+                GameManager.Instance.idAnimator = 1;
             }
             
         }
@@ -37,11 +38,11 @@ public class ItemPlayer : Item
         if (timeUnable <= 0 && check)
         {
             this.PostEvent(EventID.OnChangePlayer,timeUnable);
-            obj.GetComponent<ChangeAnimator>().Change();
             image.SetActive(false);
             if (obj.GetComponent<Player_Controller>().isGravityInverted)
             {
                 obj.GetComponent<Player_Controller>().transGravity();
+                GameManager.Instance.idAnimator = 0;
             }
             check = false;
             gameObject.GetComponent<SpriteRenderer>().enabled = true;
@@ -53,10 +54,6 @@ public class ItemPlayer : Item
 
     public override void Special()
     {
-        if (obj != null)
-        {
-            obj.GetComponent<ChangeAnimator>().Change();
-        }
         image.SetActive(true);
         timeUnable = time;
         timeCheck = 0f;

@@ -27,18 +27,15 @@ public class Player_Controller : MonoBehaviour
         if (!CanControl) return;
         if (GameManager.Instance.livePlayer > 0)
         {
-            GroundCheck(CheckGround.isGround);
-            
             Jump();
             Running();
-            SetAnimVelocity();
         }
-
         if ((Input.GetKeyDown(KeyCode.E) && GameManager.Instance.idAnimator == 1))
         {
             transGravity();
         }
     }
+
     private void Running()
     {
         float input = 0;
@@ -57,18 +54,20 @@ public class Player_Controller : MonoBehaviour
             rb.velocity = new Vector2(0, rb.velocity.y);
             input = 0;
         }
-
         if (input != 0)
         {
             Flip(input);
 
             if (!CheckGround.isGround)
             {
+                anim.SetBool("Jump", true);
+                anim.SetBool("Run", false);
                 particleLeft.SetActive(false);
                 particleRight.SetActive(false);
             }
             else
             {
+                anim.SetBool("Run", true);
                 if (input < 0)
                 {
                     particleLeft.SetActive(false);
@@ -84,31 +83,14 @@ public class Player_Controller : MonoBehaviour
 
         else
         {
+            anim.SetBool("Run", false);
             particleLeft.SetActive(false);
             particleRight.SetActive(false);
         }
+
     }
 
     private bool isJump = false;
-
-    public void GroundCheck(bool isGround)
-    {
-        if (isGround)
-        {
-            anim.SetBool("Grounded", true);
-            anim.SetBool("InAir", false);
-        }
-        else
-        {
-            anim.SetBool("Grounded", false);
-            anim.SetBool("InAir", true);
-        }
-    }
-    public void SetAnimVelocity()
-    {
-        anim.SetFloat("xVelocity", Mathf.Abs(rb.velocity.x));
-        anim.SetFloat("yVelocity", rb.velocity.y);
-    }
 
     private void Jump()
     {
@@ -129,18 +111,21 @@ public class Player_Controller : MonoBehaviour
             {
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.jump);
                 rb.velocity = Vector2.up * forceJump * Mathf.Sign(rb.gravityScale);
+                anim.SetBool("DoubleJump", true);
                 doubleJump = false;
                 isJump = true;
             }
         }
-
         if (!CheckGround.isGround)
         {
             speed = 2f;
+            anim.SetBool("Jump", true);
         }
         else
         {
             speed = 5f;
+            anim.SetBool("Jump", false);
+            anim.SetBool("DoubleJump", false);
             isJump = false;
         }
     }
@@ -154,7 +139,6 @@ public class Player_Controller : MonoBehaviour
     }
 
     public bool isGravityInverted = false; // Biến để kiểm tra trạng thái trọng lực
-
     public void transGravity()
     {
         StartCoroutine(ApplyGravityChange());
@@ -179,8 +163,9 @@ public class Player_Controller : MonoBehaviour
             transform.localScale = scale;
             rb.gravityScale *= -1;
         }
-
         isGravityInverted = !isGravityInverted;
         anim.enabled = true; // Kích hoạt lại Animator
     }
+
+
 }

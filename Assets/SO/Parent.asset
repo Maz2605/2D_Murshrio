@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c32befee2a9d00d40a6a74734df5aeaf, type: 3}
-  m_Name: NPC
+  m_Name: Parent
   m_EditorClassIdentifier: 
   id: 1
-  name: NPC1
-  avatar: {fileID: 21300000, guid: 11032e9ac9cf0c54196588c1ab765305, type: 3}
+  name: "N\u1EA5m b\u1ED1"
+  avatar: {fileID: 21300000, guid: b8215106b3b299b43b3ef2b513e46791, type: 3}

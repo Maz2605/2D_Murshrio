@@ -48,8 +48,10 @@ public class DialogueManager : Singleton<DialogueManager>
         base.Awake();
         dialoguePanel.alpha = 0f;
         dialoguePanel.transform.localScale = Vector3.one * uiScaleFrom;
-
-        currentState = dialogue.GetState(dialogue.InitialStateID);
+        if(dialogue != null)
+        {
+            currentState = dialogue.GetState(dialogue.InitialStateID);
+        }
         currentLineIndex = 0;
         currentSentenceIndex = 0;
     }
