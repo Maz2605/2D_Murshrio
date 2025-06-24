@@ -10,7 +10,6 @@ public class Tyrannosaurous : MonoBehaviour
     public Collider2D Coll { private set; get; }
 
     public int faceDirection = 1;
-    public int currentHealth = 100;
     public int moveSpeed = 5;
     public float patrolRange = 5f;
     private float destroyAfter = 2f;
