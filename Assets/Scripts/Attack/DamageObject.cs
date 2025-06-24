@@ -18,7 +18,6 @@ public class DamageObject : MonoBehaviour
    {
       if (other.gameObject.CompareTag(nameObject) && !GameManager.Instance.isProtect)
       {
-         other.gameObject.GetComponent<Animator>().SetTrigger("Hit");
          GameManager.Instance.livePlayer--;
          if (GameManager.Instance.livePlayer > 0)
          {
