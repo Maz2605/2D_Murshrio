@@ -19,7 +19,6 @@ public class CamTrigger : MonoBehaviour
             _camFollow.minLimits += newCamPosMin;
             _camFollow.maxLimits += newCamPosMax;
             other.transform.position += newPlayerPos;
-            other.gameObject.GetComponent<PlayerRespawn>().PointCheckPoint(other.transform.position.x,other.transform.position.y);
         }
     }
 }

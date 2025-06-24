@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -15,10 +16,12 @@ public class NextLevel : MonoBehaviour
    }
    private void OnTriggerEnter2D(Collider2D other)
    {
+      if (!CheckCanNextLevel()) return;
       if (other.CompareTag(namePlayer))
       {
          loadNextLevel.SetActive(true);
          other.gameObject.GetComponent<Player_Controller>().enabled = false;
+         other.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
          Invoke("loadNext",1.3f);
       }
    }
@@ -37,4 +40,9 @@ public class NextLevel : MonoBehaviour
          PlayerPrefs.Save();
       }
    }
+    private bool CheckCanNextLevel()
+    {
+        var allCoins = FindObjectsOfType<DestroyObject>();
+        return allCoins.All(x => x.isReceived);
+    }
 }

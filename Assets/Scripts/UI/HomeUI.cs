@@ -6,7 +6,8 @@ public class HomeUI : MonoBehaviour
 {
     public Button playNewGame;
     public Button[] buttons;
-
+    public GameObject currentUI;
+    public GameObject uiIntro;
     private void Awake()
     {
        MenuChoice();
@@ -34,14 +35,32 @@ public class HomeUI : MonoBehaviour
     public void OpenLevel(int levelID)
     {
         string levelName = "Level" + levelID;
-        SceneManager.LoadScene(levelName);
+        if(levelID == 1 && PlayerPrefs.GetInt("FirstPlay", 1) == 1)
+        {
+            ShowIntro();
+        }
+        else
+        {
+            SceneManager.LoadScene(levelName);
+        }
     }
 
     public void PlayNewGame()
     {
-        SceneManager.LoadScene("Level1");
         PlayerPrefs.SetInt("UnlockLevel",1);
+        PlayerPrefs.SetInt("FirstPlay", 1);
+        ShowIntro();
         PlayerPrefs.Save();
         MenuChoice();
+    }
+    private void ShowIntro()
+    {
+        currentUI.SetActive(false);
+        uiIntro.SetActive(true);
+        PlayerPrefs.SetInt("FirstPlay", 0);
+    }
+    public void BtnTapTheScreen()
+    {
+        LoadingScreen.Instance.ShowLoading(() => SceneManager.LoadScene("Level" + 1), null, 1f);
     }
 }

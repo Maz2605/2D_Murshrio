@@ -13,6 +13,7 @@ public class Player_Controller : MonoBehaviour
     private bool doubleJump = false;
     public float forceJump;
     public float speed;
+    public bool CanControl { get; set; }
 
     private void Awake()
     {
@@ -23,6 +24,7 @@ public class Player_Controller : MonoBehaviour
 
     private void Update()
     {
+        if (!CanControl) return;
         if (GameManager.Instance.livePlayer > 0)
         {   Jump();
             Running();

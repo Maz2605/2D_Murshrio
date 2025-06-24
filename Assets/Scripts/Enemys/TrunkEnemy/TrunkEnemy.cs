@@ -51,7 +51,7 @@ public class TrunkEnemy : AI_Enemy
                     timeElapsed += Time.deltaTime;
                     if (timeElapsed > fadeTime)
                     {
-                        Destroy(gameObject);
+                        gameObject.SetActive(false);
                     }
                 }
             }
@@ -84,7 +84,7 @@ public class TrunkEnemy : AI_Enemy
                     timeElapsed += Time.deltaTime;
                     if (timeElapsed > fadeTime)
                     {
-                        Destroy(gameObject);
+                        gameObject.SetActive(false);
                     }
                 }
             }   

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b26dee45f199a4eacbd3f377a56d19, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  player: {fileID: 11400000, guid: f2e77fce824cda84bbdb2a778330df31, type: 2}
+  npc: {fileID: 11400000, guid: f476b085f6a75474cada7dbfca79f6ea, type: 2}
+  states:
+  - stateID: 1
+    nextStateID: 2
+    linesInState:
+    - isPlayer: 1
+      lines:
+      - "\u0110\xE2y l\xE0 m\u1ED9t hang \u0111\u1ED9ng \u01B0..."
+      - "Li\u1EC7u r\u1EB1ng b\u1ED1 m\u1EB9 m\xECnh c\xF3 \u1EDF \u0111\xE2y"
+      - "M\xECnh ph\u1EA3i nhanh ch\xF3ng \u0111i t\xECm b\u1ED1 m\u1EB9 m\u1EDBi
+        \u0111\u01B0\u1EE3c"
+  initialStateID: 1

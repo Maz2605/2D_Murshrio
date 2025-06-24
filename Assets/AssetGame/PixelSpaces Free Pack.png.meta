@@ -1,0 +1,3449 @@
+fileFormatVersion: 2
+guid: b978558528a15094e88e66895fb36ed4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 15
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_0
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 344
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf739399bedb104b8b42705e313088b
+      internalID: -125287663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_1
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 347
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efeb72c722100d34aa369ef18957e13d
+      internalID: -193115554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_2
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 344
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e1726038b796546a77d3e5fb1b0b64
+      internalID: -1786922216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_3
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 344
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2420c0a6053e242418eb53d27e1fa13c
+      internalID: -1260126912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_4
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 344
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ede37dfc788ed4e801b731b4ac8eb8
+      internalID: 709707384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_5
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 344
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edde36016f5d9f4699499fcc1f0de3e
+      internalID: 594476482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_6
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 344
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d848902c562b3634e9eaee834dd8f1e7
+      internalID: -1080469746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_7
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 344
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a5b98de58dd6d4b88c7b3877a4c977
+      internalID: 1929405317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_8
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 344
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e3b4c7f17e0cf459dcb2ae6b401f04
+      internalID: -97566214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 344
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04129c5bd451274d874e3a02fdbe5be
+      internalID: 827401927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: May2
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 326
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21431244e0848f7418196caf6b538470
+      internalID: 1512786983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_11
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 287
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052743d388a911a4e80051ce5871b2c9
+      internalID: 467527995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mai
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 327
+        width: 68
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3be01432db4abf45b8b303c8b4ee3fc
+      internalID: 574752421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_13
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 327
+        width: 68
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5f1db0a67dd304c81ebe8ca8c2fe30
+      internalID: -485373998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_14
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 323
+        width: 83
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56d68afcf9c6bb478688121bdd850fc
+      internalID: -1275451755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_15
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 323
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ffe374fc0252b409378be317cc65e2
+      internalID: -1366931789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_16
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 326
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2470ec4d0015ea449b95073963b06d8
+      internalID: 660174015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Co
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 326
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6e2d06e755e444caa9928f9db0b5ff
+      internalID: 1493899741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_18
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 326
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20f23df6bcc49949a84b9f836dad294
+      internalID: -1685156650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_19
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 326
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6005d318f00ac4fb3295b17ee8c97e
+      internalID: 289141159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_20
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 323
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd1f36d2d2798f46a720012a8603665
+      internalID: 1835274142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_21
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 323
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9c7bdbfd800054b894b67f12827ea1
+      internalID: -166066004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_22
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 323
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ed0c0d2f261084797e898a41520d64
+      internalID: 1914918879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_23
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 323
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e80157ab53ab2a4bb36669acd61655f
+      internalID: 1721022197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_24
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 323
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a0f89c252286e43b5fe750f43e424b
+      internalID: 1675153549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_25
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 323
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ab1ff319dbe594c9eba8cbf89b5e3c
+      internalID: 333231193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_26
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 323
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371bb227b448f9d419ddd60a1b284696
+      internalID: -271490584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_27
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 323
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994937260fdf2fe4ca9838012edfe4da
+      internalID: -1482311653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_28
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 307
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eae75e0ac613244ba942c233a55ca14
+      internalID: 1761662294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_29
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 258
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053f4bbebc20a62498b486e88991b0ca
+      internalID: 939800710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_30
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 309
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919876c7fbc445e4a9394c36f6af6cee
+      internalID: 662632935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_31
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 309
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056d52154d0596d4da492b36f1c45075
+      internalID: -797792486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoa
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 309
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a7d59ff59e7674ba86f8d6f22e400a
+      internalID: 304221972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_33
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 309
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba71ca61f2453d4f9f30c3807ee2b2a
+      internalID: 2075963290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_34
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 306
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8828d8cfdfa9446bf2ae591e6a5785
+      internalID: -59330206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_35
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 306
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64201717674bcc844a99eb5de8bd433d
+      internalID: 805408642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_36
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 306
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3899542aa4b4a7d4c8d86137c0f41c95
+      internalID: -1500348339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_37
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 306
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef58dbf996521745a32f129fe5764f9
+      internalID: -1163547655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_38
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 306
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0c9451a4c919f45a03a73f022d289e
+      internalID: 410997665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_39
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 306
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72733866626c79c488e620947795c263
+      internalID: -1509789686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_40
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 306
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b74c411a9b482b4c960f172a3ab027a
+      internalID: 1526584203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_41
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 306
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7733d0d90565944184459cbdfd87691
+      internalID: -848255973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 224
+        width: 16
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6091d28e4b70348498a0589f4b00b3bc
+      internalID: 1439098315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nui1
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 224
+        width: 158
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f47cabbf051b941acb7740f9f68dd2
+      internalID: 1299994249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: may1
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 306
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b254f339724a6e40a86d91f11f10ded
+      internalID: -986808909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_45
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 289
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46876ed49a931c849b4ecf4b23c18d26
+      internalID: -1691925742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dong
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 289
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb8cba3c4707ca4daec6a20f2011ae1
+      internalID: -2065055779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tivi
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 296
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b34d20c2a76f84aa7df5530f5c4449
+      internalID: 2083298472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_48
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 290
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9fca134e9707146a94ea12cf571a6f
+      internalID: 1097779865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_49
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 290
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18ecfb831aac2441a165fb612c87623
+      internalID: -1906850676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_50
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 296
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea0340e3c7e6504fac35c0c1919a382
+      internalID: 276049856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_51
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 289
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622d206ea79afdf4a9bc1229f37c6f95
+      internalID: -1549424455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_52
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 290
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8535b04320df175499b894902660404c
+      internalID: 535262029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nui2
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 224
+        width: 142
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327ea18ce84c0f2448168749fced391c
+      internalID: -1221976526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_54
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 287
+        width: 34
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560d8c6eb26ca1d4e884dd73c2d1bace
+      internalID: 357372976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_55
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 287
+        width: 34
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6587071bd43db47a4c3f387445ea4c
+      internalID: -812229658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_56
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 287
+        width: 34
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfe1aac524859e419c202d715444fdd
+      internalID: 1994926984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: line
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 2
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be20685e7cf89c74888e3ea304a2090f
+      internalID: 2067822400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuong
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 158
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83beecb18d5987440a150a18aee35dd1
+      internalID: 699333578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_59
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 233
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b23165231642e4cb911066a04c003a
+      internalID: -2077793306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 234
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717d820213e57fe49a491cd0f73489eb
+      internalID: 1450173376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 226
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384da0ae8bcd69e4d905cbbe6a200c6a
+      internalID: -1290376176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_62
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 226
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae02ed7b6692614681e0da3a222a326
+      internalID: -223765199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_63
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 226
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372f095b5ba5f964899fe3731a0a3bd5
+      internalID: -1921765413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_64
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 226
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aea02dcf43945e489441d43bdea1022
+      internalID: -1061371712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_65
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 226
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9c1bcd0a1cf7a44bba22e2621e5289
+      internalID: 2102583547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_66
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 226
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23d7b04e88920446b2c97b543f70563
+      internalID: 313120696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuaSo
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 208
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9e369ff6a153640a6f9f8876977f59
+      internalID: -1434496410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_68
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 224
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b711d2db68f4240adeff320138ba14
+      internalID: 290572418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nui3
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 224
+        width: 120
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7b67f56bd601743b6b4543134af6e5
+      internalID: 1960511414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_70
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 210
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af7a9f90f92d8f4dae5e719138ca4cd
+      internalID: 1569964564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_71
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 210
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9180ec2c31995d4ba02741683252548
+      internalID: -910727107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghe
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 210
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7ddb402e33b8a43a10ee632f584b92
+      internalID: 940621906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_73
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 210
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164a0efaa953a764898e9e19ddc1631e
+      internalID: -702985942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_74
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 210
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c995b2da6e5cd247a77b811c06d3264
+      internalID: -1155919384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_75
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 210
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499b9b351db4d584caeb6d71a19c7c92
+      internalID: -2048860477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_76
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 210
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40893df60ec09e449a705c7b03c07fd
+      internalID: -1486062170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_77
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 210
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545d71edd5ece7f4eb6dbf71333960bb
+      internalID: -1008876839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuaSo2
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 209
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3bd934c69c9734899540fb7da010d2
+      internalID: -118968573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_79
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 210
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0958bc98bc8c6d24b9c4b1c7d8930901
+      internalID: -1122325895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_80
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 210
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f278f1a4ff7ac14599feb8b8a75dd45
+      internalID: 1629715241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_81
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 210
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ac0d6c894ec14449e18f58973004eb
+      internalID: 14488795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_82
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 210
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c924fb36ab177584e8eff584b2cf6805
+      internalID: 2043104187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_83
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 178
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a99571ebb73e2245a5cee94d88a90f9
+      internalID: -843024186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_84
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 194
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0823d53dd060fe747ae1e00f9a911100
+      internalID: 1189747231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_85
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 178
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536819168605de643abbfa9641a9806f
+      internalID: 1772000378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_86
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 178
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf03a56e52a1d874296f1649a8dcfedd
+      internalID: 1736762897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_87
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 194
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8707d675d494542b3936793e39ab0d
+      internalID: -2099005948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_88
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 194
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b7152122e1bfe45a7c654cc63d9b4d
+      internalID: 1869692010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_89
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 194
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e802c16cfd228244bd841e6e59f3c7e
+      internalID: 847802487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_90
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 194
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc43c0145a4f7334e9ab294737bd0c21
+      internalID: -111750333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_91
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 196
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79aa17f3ba18ec04897c17b048173e23
+      internalID: -469017412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_92
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 196
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db167465d3c615c40992a28afe4de359
+      internalID: -1032922725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_93
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 178
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187b0c8c0a76e7f498bda17289cbdb82
+      internalID: -1831803816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_94
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 178
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d34d374b0bcd4408ae54f4de62965a
+      internalID: -2042062454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_95
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 178
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fea07103624012448a95d41fd0825ea
+      internalID: 531587933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_96
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 187
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a504fd85e2af8ef49945733295c2c23a
+      internalID: -366729016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_97
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 181
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83051b797713e1e47aedf663944afc80
+      internalID: -1823627331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_98
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 181
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171880c254617d84d8cc48f53c3cde79
+      internalID: -208210734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_99
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 178
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c1c12ac3eb4bf43bb9fa3eb3ef0025
+      internalID: -800557347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_100
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 128
+        width: 95
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afd59e83d1009545b3e46bf94efbe35
+      internalID: -1603771725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeSach
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 146
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a887a82c8c28d40b43c7e622517fcc
+      internalID: 1205549568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_102
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 168
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931a5a84cc16241458cf5db8226b062d
+      internalID: -714523790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_103
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 168
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a0524cd8299b04f8545376ce8a67af
+      internalID: 413793967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_104
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 162
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c69c3e8d88c624094210963a0c955f
+      internalID: 292995748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_105
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 162
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c02992d628ded4d9ab873ecc3b5296
+      internalID: 1331421997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_106
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 164
+        width: 28
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41237368f3923e449b648631b0d41f1
+      internalID: 1485922692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_107
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 164
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b13dc6b1412d945baa64afe4b236a7
+      internalID: -982126098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cay1
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 128
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2379fc2c29c680419c80ef615911830
+      internalID: -1802845284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_109
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 128
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4702bf894d519d4e99a3d63c1dcb932
+      internalID: -2140377040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sach1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 163
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d9a68b8ba619647bcfcbda9812b95e
+      internalID: -822328407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_111
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 163
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5be84cb3f2f50468f080528b828374
+      internalID: -1289340815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_112
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 163
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d4c468a02176141a32a442312d939c
+      internalID: 1001265955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nha
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 128
+        width: 79
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cfa5550189a68479ff641a14fdedb1
+      internalID: -1201581084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sach2
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 152
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5876303546a28c44c8d1413d4bff5461
+      internalID: 1068996413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_115
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 152
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef4deddee703ac43ac8f2929524ba51
+      internalID: -1831815120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_116
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 152
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199b58c744781ba4caec496fa17c30d7
+      internalID: -1180296881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cay2
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 128
+        width: 70
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c01eb7501bfb864eae771ce7edd0cb7
+      internalID: -391591999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_118
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff80658a283805e46847b1a4004d69d6
+      internalID: 708324479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_119
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 128
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369320bf9862cbc4a9726958fbd4fe4a
+      internalID: 1930898307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_120
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 128
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fc2f6b75e798246ac99cae993ef9eb
+      internalID: 1372914560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cay3
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 128
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab83e6aecc28ec438bd3bd76722b788
+      internalID: 2051558286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_122
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 120
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9479620322f434d87fdb422338acf7
+      internalID: -1780616351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_123
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 120
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a935f1f438bb04a8f821f85a4e0a3b
+      internalID: 1879054310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_124
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 120
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e8ddd710e9d85469cfe00de1111c50
+      internalID: -1207592476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_125
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 98
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708b554a47e28954ab1e3681c877bf82
+      internalID: 54568201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tu
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 98
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36572f5ace4c574cb7c509cfb41cccd
+      internalID: 324079541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_127
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 101
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e992549311281804da2173ee2542b123
+      internalID: -2093520356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_128
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 84
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b392f92168e81438d38a05a1fa302e
+      internalID: 547485239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_129
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 82
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffffc22cd0e61845a9c5eb5661debf4
+      internalID: -321778072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_130
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 72
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55f1646da04fc749995fbbe3eeef4af
+      internalID: 1518699540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_131
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 66
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3932aef86465048aebc97d5387ee96
+      internalID: -1364359167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_132
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 18
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8582b77efdf2ffd4f8db305c6cb5afb7
+      internalID: -1763065822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_133
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 56
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698494f4863a1ec4d89fa431a36b7bb4
+      internalID: -849922067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_134
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736b46cb09b77304d93e6b4a56472eea
+      internalID: 534441855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_135
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4c9f849f9f508408e2899a0550b7cd
+      internalID: 2008245611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_136
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2ea50a2f2efbd46965cd05f7d4723c
+      internalID: -2089616637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_137
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 18
+        width: 5
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e29e65233a15bd4ebe4eece4f3d98c0
+      internalID: 1615435818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_138
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 18
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1cbb5edee68ad42acec149e6597bdd
+      internalID: 1455000855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_139
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 18
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fd212058acfbd4589c923442657567
+      internalID: -1669866033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_140
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 18
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03075068338a97040a213aa05843648b
+      internalID: 1158062494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_141
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 18
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185686ad2d9437840be687698fd99a7e
+      internalID: 1708874111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_142
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 40
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c455038e61f61247ae579289b5f4510
+      internalID: -104147668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_143
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 18
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d41e55cfec11a45babfbb6c8d6ece4
+      internalID: 410755427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_144
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 40
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df07c60166f346643afe01618f3d65a6
+      internalID: 1578867752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_145
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 40
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8089e00e45af70341be81952d0a294b6
+      internalID: 1428251668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_146
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 18
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff69f1e06a2dc754e961e43977841b8a
+      internalID: 1442946164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_147
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 18
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3584be89732e87c419ee96abee0e732b
+      internalID: -1138284365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_148
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 18
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508b56f5daff2bb47a7151c6815ef5a2
+      internalID: 84870791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_149
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 18
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f579afbd202279d4ab7134addc8c1d41
+      internalID: 634153654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelSpaces Free Pack_150
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 18
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78f9bde241cfca46aa84444bccdcf64
+      internalID: 1764520987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cay1: -1802845284
+      Cay2: -391591999
+      Cay3: 2051558286
+      Co: 1493899741
+      KeSach: 1205549568
+      May2: 1512786983
+      Nha: -1201581084
+      Nui1: 1299994249
+      Nui2: -1221976526
+      Nui3: 1960511414
+      PixelSpaces Free Pack_0: -125287663
+      PixelSpaces Free Pack_1: -193115554
+      PixelSpaces Free Pack_100: -1603771725
+      PixelSpaces Free Pack_102: -714523790
+      PixelSpaces Free Pack_103: 413793967
+      PixelSpaces Free Pack_104: 292995748
+      PixelSpaces Free Pack_105: 1331421997
+      PixelSpaces Free Pack_106: 1485922692
+      PixelSpaces Free Pack_107: -982126098
+      PixelSpaces Free Pack_109: -2140377040
+      PixelSpaces Free Pack_11: 467527995
+      PixelSpaces Free Pack_111: -1289340815
+      PixelSpaces Free Pack_112: 1001265955
+      PixelSpaces Free Pack_115: -1831815120
+      PixelSpaces Free Pack_116: -1180296881
+      PixelSpaces Free Pack_118: 708324479
+      PixelSpaces Free Pack_119: 1930898307
+      PixelSpaces Free Pack_120: 1372914560
+      PixelSpaces Free Pack_122: -1780616351
+      PixelSpaces Free Pack_123: 1879054310
+      PixelSpaces Free Pack_124: -1207592476
+      PixelSpaces Free Pack_125: 54568201
+      PixelSpaces Free Pack_127: -2093520356
+      PixelSpaces Free Pack_128: 547485239
+      PixelSpaces Free Pack_129: -321778072
+      PixelSpaces Free Pack_13: -485373998
+      PixelSpaces Free Pack_130: 1518699540
+      PixelSpaces Free Pack_131: -1364359167
+      PixelSpaces Free Pack_132: -1763065822
+      PixelSpaces Free Pack_133: -849922067
+      PixelSpaces Free Pack_134: 534441855
+      PixelSpaces Free Pack_135: 2008245611
+      PixelSpaces Free Pack_136: -2089616637
+      PixelSpaces Free Pack_137: 1615435818
+      PixelSpaces Free Pack_138: 1455000855
+      PixelSpaces Free Pack_139: -1669866033
+      PixelSpaces Free Pack_14: -1275451755
+      PixelSpaces Free Pack_140: 1158062494
+      PixelSpaces Free Pack_141: 1708874111
+      PixelSpaces Free Pack_142: -104147668
+      PixelSpaces Free Pack_143: 410755427
+      PixelSpaces Free Pack_144: 1578867752
+      PixelSpaces Free Pack_145: 1428251668
+      PixelSpaces Free Pack_146: 1442946164
+      PixelSpaces Free Pack_147: -1138284365
+      PixelSpaces Free Pack_148: 84870791
+      PixelSpaces Free Pack_149: 634153654
+      PixelSpaces Free Pack_15: -1366931789
+      PixelSpaces Free Pack_150: 1764520987
+      PixelSpaces Free Pack_16: 660174015
+      PixelSpaces Free Pack_18: -1685156650
+      PixelSpaces Free Pack_19: 289141159
+      PixelSpaces Free Pack_2: -1786922216
+      PixelSpaces Free Pack_20: 1835274142
+      PixelSpaces Free Pack_21: -166066004
+      PixelSpaces Free Pack_22: 1914918879
+      PixelSpaces Free Pack_23: 1721022197
+      PixelSpaces Free Pack_24: 1675153549
+      PixelSpaces Free Pack_25: 333231193
+      PixelSpaces Free Pack_26: -271490584
+      PixelSpaces Free Pack_27: -1482311653
+      PixelSpaces Free Pack_28: 1761662294
+      PixelSpaces Free Pack_29: 939800710
+      PixelSpaces Free Pack_3: -1260126912
+      PixelSpaces Free Pack_30: 662632935
+      PixelSpaces Free Pack_31: -797792486
+      PixelSpaces Free Pack_33: 2075963290
+      PixelSpaces Free Pack_34: -59330206
+      PixelSpaces Free Pack_35: 805408642
+      PixelSpaces Free Pack_36: -1500348339
+      PixelSpaces Free Pack_37: -1163547655
+      PixelSpaces Free Pack_38: 410997665
+      PixelSpaces Free Pack_39: -1509789686
+      PixelSpaces Free Pack_4: 709707384
+      PixelSpaces Free Pack_40: 1526584203
+      PixelSpaces Free Pack_41: -848255973
+      PixelSpaces Free Pack_45: -1691925742
+      PixelSpaces Free Pack_48: 1097779865
+      PixelSpaces Free Pack_49: -1906850676
+      PixelSpaces Free Pack_5: 594476482
+      PixelSpaces Free Pack_50: 276049856
+      PixelSpaces Free Pack_51: -1549424455
+      PixelSpaces Free Pack_52: 535262029
+      PixelSpaces Free Pack_54: 357372976
+      PixelSpaces Free Pack_55: -812229658
+      PixelSpaces Free Pack_56: 1994926984
+      PixelSpaces Free Pack_59: -2077793306
+      PixelSpaces Free Pack_6: -1080469746
+      PixelSpaces Free Pack_60: 1450173376
+      PixelSpaces Free Pack_61: -1290376176
+      PixelSpaces Free Pack_62: -223765199
+      PixelSpaces Free Pack_63: -1921765413
+      PixelSpaces Free Pack_64: -1061371712
+      PixelSpaces Free Pack_65: 2102583547
+      PixelSpaces Free Pack_66: 313120696
+      PixelSpaces Free Pack_68: 290572418
+      PixelSpaces Free Pack_7: 1929405317
+      PixelSpaces Free Pack_70: 1569964564
+      PixelSpaces Free Pack_71: -910727107
+      PixelSpaces Free Pack_73: -702985942
+      PixelSpaces Free Pack_74: -1155919384
+      PixelSpaces Free Pack_75: -2048860477
+      PixelSpaces Free Pack_76: -1486062170
+      PixelSpaces Free Pack_77: -1008876839
+      PixelSpaces Free Pack_79: -1122325895
+      PixelSpaces Free Pack_8: -97566214
+      PixelSpaces Free Pack_80: 1629715241
+      PixelSpaces Free Pack_81: 14488795
+      PixelSpaces Free Pack_82: 2043104187
+      PixelSpaces Free Pack_83: -843024186
+      PixelSpaces Free Pack_84: 1189747231
+      PixelSpaces Free Pack_85: 1772000378
+      PixelSpaces Free Pack_86: 1736762897
+      PixelSpaces Free Pack_87: -2099005948
+      PixelSpaces Free Pack_88: 1869692010
+      PixelSpaces Free Pack_89: 847802487
+      PixelSpaces Free Pack_9: 827401927
+      PixelSpaces Free Pack_90: -111750333
+      PixelSpaces Free Pack_91: -469017412
+      PixelSpaces Free Pack_92: -1032922725
+      PixelSpaces Free Pack_93: -1831803816
+      PixelSpaces Free Pack_94: -2042062454
+      PixelSpaces Free Pack_95: 531587933
+      PixelSpaces Free Pack_96: -366729016
+      PixelSpaces Free Pack_97: -1823627331
+      PixelSpaces Free Pack_98: -208210734
+      PixelSpaces Free Pack_99: -800557347
+      Sach1: -822328407
+      Sach2: 1068996413
+      cuaSo: -1434496410
+      cuaSo2: -118968573
+      dong: -2065055779
+      ghe: 940621906
+      hoa: 304221972
+      line: 2067822400
+      mai: 574752421
+      may1: -986808909
+      sky: 1439098315
+      tivi: 2083298472
+      tu: 324079541
+      tuong: 699333578
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
