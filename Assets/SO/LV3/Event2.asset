@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b26dee45f199a4eacbd3f377a56d19, type: 3}
+  m_Name: Event2
+  m_EditorClassIdentifier: 
+  player: {fileID: 11400000, guid: f2e77fce824cda84bbdb2a778330df31, type: 2}
+  npc: {fileID: 11400000, guid: f476b085f6a75474cada7dbfca79f6ea, type: 2}
+  states:
+  - stateID: 1
+    nextStateID: 2
+    linesInState:
+    - isPlayer: 1
+      lines:
+      - "Cha! Con \u0111\u1EBFn r\u1ED3i! Cha kh\xF4ng sao ch\u1EE9?"
+    - isPlayer: 0
+      lines:
+      - "L\xE0 con\u2026 Con th\u1EF1c s\u1EF1 \u0111\xE3 \u0111\u1EBFn\u2026 Ta
+        kh\xF4ng ngh\u0129\u2026 m\xECnh s\u1EBD c\xF2n \u0111\u01B0\u1EE3c g\u1EB7p
+        l\u1EA1i con\u2026"
+    - isPlayer: 1
+      lines:
+      - "Con gi\u1EBFt h\u1EBFt b\u1ECDn qu\xE1i v\u1EADt r\u1ED3i. Kh\xF4ng c\xF2n
+        g\xEC c\xF3 th\u1EC3 l\xE0m h\u1EA1i cha n\u1EEFa"
+    - isPlayer: 0
+      lines:
+      - "\u2026Con \u0111\xE3 tr\u01B0\u1EDFng th\xE0nh r\u1ED3i. Ta nghe th\u1EA5y
+        ti\u1EBFng chi\u1EBFn \u0111\u1EA5u"
+      - "\u2026 nh\u01B0ng kh\xF4ng tin v\xE0o tai m\xECnh. Con\u2026 con \u0111\xE3
+        chi\u1EBFn \u0111\u1EA5u v\xEC ta \u01B0?"
+    - isPlayer: 1
+      lines:
+      - "\u2026 nh\u01B0ng kh\xF4ng tin v\xE0o tai m\xECnh. Con\u2026 con \u0111\xE3
+        chi\u1EBFn \u0111\u1EA5u v\xEC ta \u01B0?"
+    - isPlayer: 0
+      lines:
+      - "Cha xin l\u1ED7i\u2026 v\xEC \u0111\xE3 kh\xF4ng th\u1EC3 b\u1EA3o v\u1EC7
+        con nh\u01B0 cha t\u1EEBng h\u1EE9a\u2026"
+    - isPlayer: 0
+      lines:
+      - "\u2026Con \u0111\xE3 l\xE0m \u0111\u01B0\u1EE3c \u0111i\u1EC1u m\xE0 ta
+        ch\u01B0a bao gi\u1EDD d\xE1m ngh\u0129 t\u1EDBi. Ta t\u1EF1 h\xE0o v\u1EC1
+        con."
+    - isPlayer: 1
+      lines:
+      - "Kh\xF4ng, ch\xEDnh cha \u0111\xE3 d\u1EA1y con c\xE1ch \u0111\u1EE9ng d\u1EADy.
+        Gi\u1EDD \u0111\u1EBFn l\u01B0\u1EE3t con b\u1EA3o v\u1EC7 cha"
+    - isPlayer: 0
+      lines:
+      - "\u2026Con \u0111\xE3 l\xE0m \u0111\u01B0\u1EE3c \u0111i\u1EC1u m\xE0 ta
+        ch\u01B0a bao gi\u1EDD d\xE1m ngh\u0129 t\u1EDBi. Ta t\u1EF1 h\xE0o v\u1EC1
+        con"
+    - isPlayer: 0
+      lines:
+      - "V\u1EC1 nh\xE0 th\xF4i cha. M\u1ECDi th\u1EE9\u2026 k\u1EBFt th\xFAc r\u1ED3i"
+  initialStateID: 1

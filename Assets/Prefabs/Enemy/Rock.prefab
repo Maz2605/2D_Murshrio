@@ -268,7 +268,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7134310343423999416}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -348,9 +348,9 @@ MonoBehaviour:
   rb: {fileID: 1246258894156197447}
   anim: {fileID: 8377131784166010848}
   hitDamage: {fileID: 681102006310061025}
-  speed: 5
+  speed: 3
   arrangeAttack: 0
-  patrolRange: 6
+  patrolRange: 2.5
   faceDirection: -1
 --- !u!95 &8377131784166010848
 Animator:

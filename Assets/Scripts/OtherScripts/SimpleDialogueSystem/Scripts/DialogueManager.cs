@@ -41,11 +41,14 @@ public class DialogueManager : Singleton<DialogueManager>
     private bool canRunActionStart;
     private Action callbackOnStart;
     private Action callbackOnFinish;
+    [SerializeField] private List<AudioClip> audioClips;
+    private AudioSource audioSource;
 
     protected override void Awake()
     {
         base.KeepAlive(false);
         base.Awake();
+        audioSource = GetComponent<AudioSource>();
         dialoguePanel.alpha = 0f;
         dialoguePanel.transform.localScale = Vector3.one * uiScaleFrom;
         if(dialogue != null)
@@ -129,6 +132,8 @@ public class DialogueManager : Singleton<DialogueManager>
 
         foreach (char c in fullText)
         {
+            audioSource.clip = audioClips[UnityEngine.Random.Range(0, audioClips.Count)];
+            audioSource.Play();
             dialogueText.text += c;
             yield return new WaitForSeconds(textSpeed);
         }

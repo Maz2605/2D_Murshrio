@@ -21,6 +21,10 @@ public class Player_Controller : MonoBehaviour
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
+    private void Start()
+    {
+        CanControl = true;
+    }
 
     private void Update()
     {

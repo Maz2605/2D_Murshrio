@@ -5,7 +5,8 @@ public class Event1 : MonoBehaviour
 {
     private Player_Controller player;
     [SerializeField] private NPCFollower NPC;
-    [SerializeField] private Dialogue Dialogue;
+    [SerializeField] private Dialogue Dialogue1;
+    [SerializeField] private Dialogue Dialogue2;
     private Camera cam;
     [SerializeField] private CameraFollowPlayer followPlayerScript;
 
@@ -29,7 +30,15 @@ public class Event1 : MonoBehaviour
     public void ShowEvent()
     {
         player.CanControl = false;
-        DialogueManager.Instance.SetDialogue(Dialogue, 0);
+        if(PlayerPrefs.GetInt("IsFirst", 1) == 1)
+        {
+            DialogueManager.Instance.SetDialogue(Dialogue1, 0);
+            PlayerPrefs.SetInt("IsFirst", 0);
+        }
+        else
+        {
+            DialogueManager.Instance.SetDialogue(Dialogue2, 0);
+        }
 
         NPC.gameObject.SetActive(true);
         NPC.enabled = false;

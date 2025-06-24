@@ -15,6 +15,7 @@ public class UIDoor : MonoBehaviour
 
     private void Open(bool value)
     {
+        if (PlayerPrefs.GetInt("IsFirst", 0) != 0) return;
         if (value)
         {
             gameObject.SetActive(false);
