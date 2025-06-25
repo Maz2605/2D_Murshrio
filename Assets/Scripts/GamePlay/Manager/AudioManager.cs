@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
@@ -38,5 +39,38 @@ public class AudioManager : MonoBehaviour
     public void PlaySFX(AudioClip clip)
     {
         SFXSource.PlayOneShot(clip);
+    }
+
+    public void SetMuteSounds()
+    {
+        if (_Scripts.UI.UIController.Instance.UISetting.IsMuteSound)
+        {
+            SFXSource.mute = true;
+            return;
+        }
+        SFXSource.mute = false;
+    }
+    public void SetMuteMusic()
+    {
+        if (_Scripts.UI.UIController.Instance.UISetting.IsMuteMusic)
+        {
+            musicSource.mute = true;
+            return;
+        }
+        musicSource.mute = false;
+    }
+
+    public void SetVolumeSoundSource(float volume)
+    {
+        SFXSource.volume = volume;
+    }
+    public void SetVolumeMusicSource(float value)
+    {
+        musicSource.volume = value;
+    }
+
+
+    internal void PlaySoundButtonClick()
+    {
     }
 }
