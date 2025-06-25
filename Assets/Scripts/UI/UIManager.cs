@@ -8,7 +8,6 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    [SerializeField] private Button _setting;
     [SerializeField] private Button _rePlay;
     [SerializeField] private GameObject objSetting;
     [SerializeField] private TextMeshProUGUI timeItemPlayer;
@@ -16,7 +15,6 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
-        _setting.onClick.AddListener(()=>Setting());
         _rePlay.onClick.AddListener(()=>Replay());
         this.RegisterListener(EventID.OnChangePlayer,param =>changeTime(timeItemPlayer,(float)param));
         this.RegisterListener(EventID.OnProtect,param =>changeTime(timeItemProtect,(float)param));

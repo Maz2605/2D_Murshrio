@@ -15,7 +15,10 @@ public class HomeUI : MonoBehaviour
 
     private void Start()
     {
-        playNewGame.onClick.AddListener((() => PlayNewGame()));
+        if(playNewGame != null)
+        {
+            playNewGame.onClick.AddListener((() => PlayNewGame()));
+        }
     }
 
     private void MenuChoice()
